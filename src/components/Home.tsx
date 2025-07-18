@@ -3,6 +3,7 @@ import { SparklesText } from "@/components/magicui/sparkles-text";
 const Home = () => {
   return (
     <div className="min-h-screen font-sans">
+      
       {/* Hero Section */}
       <section
         id="hero"
@@ -10,7 +11,7 @@ const Home = () => {
         style={{ backgroundColor: "#A3D99B" }}
       >
         <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-white">
-          <SparklesText>Hire Professional Painters for Your Home</SparklesText>
+         <SparklesText><SparklesText> <SparklesText>Hire Professional Painters for Your Home</SparklesText></SparklesText></SparklesText>
         </h1>
         <p className="text-lg md:text-xl text-white max-w-2xl mb-8">
           Book trusted painters for interior and exterior jobs. Fast booking, verified professionals, and top-quality finish — all at your fingertips.
